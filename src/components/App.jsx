@@ -1,3 +1,7 @@
+// import ThreeScene from './ThreeScene/ThreeScene';
+import ComplexSceneWithLightAndTexture from './ComplexSceneWithLightAndTexture/ComplexSceneWithLightAndTexture';
+import RotatingEarthWithLight from './RotatingEarthWithLight/RotatingEarthWithLight';
+
 export const App = () => {
   return (
     <div
@@ -6,11 +10,11 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
       }}
     >
-      React homework template
+      {/* <ThreeScene /> */}
+      <ComplexSceneWithLightAndTexture />
+      <RotatingEarthWithLight />
     </div>
   );
 };
